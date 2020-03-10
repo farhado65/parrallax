@@ -1,0 +1,29 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url('1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    font-family:serif;
+    font-size: 7em;
+    font-weight: 900;
+    color: white;
+}
+.enter {
+    font-family: sans-serif;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 2.5em;
+}
